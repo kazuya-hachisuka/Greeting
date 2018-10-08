@@ -11,4 +11,12 @@ class Greeting
 	def good_night
 		puts "Good night, " + @name
 	end
+
+	def name
+		@name
+	end
+
+	def name=(value)
+		@name = value
+	end
 end
