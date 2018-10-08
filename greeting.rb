@@ -1,22 +1,14 @@
 class Greeting
-
+	attr_accessor :name
 	def initialize(name)
 		@name = name
 	end
 
 	def hello
-		puts "Hello World!"
+		puts "Hello, " + @name
 	end
 
 	def good_night
 		puts "Good night, " + @name
-	end
-
-	def name
-		@name
-	end
-
-	def name=(value)
-		@name = value
 	end
 end
